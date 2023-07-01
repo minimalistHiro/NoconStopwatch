@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  NoconStopwatch
+
+  Created by 金子広樹 on 2023/07/01.
+  
+*/
+CFBundleDisplayName = "Stopwatch";
