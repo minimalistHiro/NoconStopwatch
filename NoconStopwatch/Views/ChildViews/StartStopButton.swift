@@ -16,7 +16,7 @@ struct StartStopButton: View {
                 viewModel.stopTime()
                 UIImpactFeedbackGenerator(style: .light).impactOccurred()
             } label: {
-                Image(systemName: "play.fill")
+                Image(systemName: "pause.fill")
                     .resizable()
                     .scaledToFit()
                     .frame(width: buttonSize, height: buttonSize)
@@ -27,7 +27,7 @@ struct StartStopButton: View {
                 viewModel.startTime()
                 UIImpactFeedbackGenerator(style: .light).impactOccurred()
             } label: {
-                Image(systemName: "pause.fill")
+                Image(systemName: "play.fill")
                     .resizable()
                     .scaledToFit()
                     .frame(width: buttonSize, height: buttonSize)

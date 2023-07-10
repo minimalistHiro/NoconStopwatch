@@ -69,7 +69,7 @@ struct ContentView: View {
                         }
                     }
                     .onChange(of: viewModel.mode) { mode in
-                        // StopWatchModeの状態によって、バックグラウンド処理の実行の有無を決定。
+                        // 画面の自動ロックの有無を状態によって振り分ける。
                         switch mode {
                         case .zero:
                             UIApplication.shared.isIdleTimerDisabled = false
